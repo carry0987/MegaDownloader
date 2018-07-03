@@ -1,0 +1,1 @@
+﻿if $(ConfigurationName) == Release $(ProjectDir)\resources\tools\mpress.exe -s -m -u  $(ProjectDir)$(OutDir)$(TargetFileName)
