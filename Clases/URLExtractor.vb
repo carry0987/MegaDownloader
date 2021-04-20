@@ -4,7 +4,8 @@ Public Class URLExtractor
 
     ' Esta clase debe ser igual en MegaDownloader y MegaUploader!!
 
-    Private Shared ENC_XOR As Byte() = New Byte() {-} ' REMOVED FROM SOURCE CODE, SORRY
+    'Private Shared ENC_XOR As Byte() = New Byte() {-} ' REMOVED FROM SOURCE CODE, SORRY
+    Private Shared ENC_XOR As Byte() = New Byte() {12, 57, 251, 120, 18, 75, 6, 250, 85} ' REMOVED FROM SOURCE CODE, SORRY
 
     Public Const ENCODE_PASSWORD As String = "k1o6Al-1kz¿!z05y"
     Public Const ENCODE_PASSWORD2 As String = "nYrXa@9Q¿1&hCWM\9(731Bp?t42=!k3."
